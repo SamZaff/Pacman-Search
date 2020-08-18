@@ -9,5 +9,3 @@ EXAMPLE: python pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
 
 This project was adapted from a UCBerkeley project. Full documentation can be
 found here: http://ai.berkeley.edu/search.html
-
-My apologies for the lengthy description!
