@@ -1,0 +1,28 @@
+# if successor[x][0] not in checkedSpots and not problem.isGoalState(successor[x][0]):
+        #
+        #     #print(problem.getSuccessors(currentState))
+        #     if not problem.isGoalState(currentState):
+        #         path.append(successor[x][1])
+        #     currentState = successor[x][0]
+        #     successor = problem.getSuccessors(currentState)
+        #     stack.push(currentState)
+        #     x = len(successor) - 1
+        #     checkedSpots.append(currentState)
+        #
+        # elif problem.isGoalState(successor[x][0]):
+        #     path.append(successor[x][1])
+        #     break
+        # else:
+        #     #print(str(problem.getSuccessors(currentState)[x][0]) + " was already traversed")
+        #     x -= 1
+        #
+        # if x < 0:
+        #     currentState = stack.pop()
+        #     if not stack.isEmpty():
+        #         currentState = stack.pop()
+        #         successor = problem.getSuccessors(currentState)
+        #     #stack.pop()
+        #     stack.push(currentState)
+        #     x = len(successor) - 1
+        #     path = path[:-1]
+        #     #print(currentState)
